@@ -1,0 +1,16 @@
+<!-- chatbots.component.html -->
+<table class="chatbot-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let chatbot of chatbots">
+        <td><a [href]="chatbot.link" target="_blank">{{ chatbot.name }}</a></td>
+        <td>{{ chatbot.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

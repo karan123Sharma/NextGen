@@ -1,0 +1,73 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .container h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styling */
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .container button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container button:active {
+    background-color: #003f7f;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

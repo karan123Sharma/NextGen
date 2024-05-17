@@ -1,0 +1,17 @@
+/* chatbots.component.css */
+.chatbot-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .chatbot-table th, .chatbot-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .chatbot-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
